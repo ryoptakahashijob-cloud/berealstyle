@@ -1,0 +1,61 @@
+
+#crop-overlay {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.crop-modal {
+    background-color: #222;
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.crop-image-container {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.zoom-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#zoom-slider {
+    width: 70%;
+}
+
+.crop-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.crop-buttons button {
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.cropper-wrap-box {
+    background-color: #aaa;
+}
+
